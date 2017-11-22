@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
 * {
-	padding: :0;
+	padding:0;
 	margin: 0;
 }
-@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 
 body {
@@ -10,25 +10,21 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
-	text-align: left;
-	font-family: Roboto, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
     font-size: 16px;
 	color:#222222;
 	line-height: 1.3;
-	padding:30px;
 }
 
 a {
 	text-decoration: none;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	color: #000;
-	font-size: 0.875em;
+	color: inherit;
 	padding-bottom:2px;
 }
 
 h1, h2 {
-	font-family: Roboto, Helvetica, sans-serif;
 	font-weight: 900;
 }
 h1 {
@@ -47,7 +43,7 @@ h3 {
 	font-weight: 700;
 	margin-top: 20px;
 	margin-bottom: 20px;
-
+	display: inline-block;
 }
 
 h4 {
@@ -56,21 +52,8 @@ h4 {
 	font-weight: 400;
 	margin-bottom: 20px;
 	text-decoration: none;
-	text-underline-position:none;
 	display: inline-block;
-
 }
-
-p {
-	font-family: Roboto, Helvetica, sans-serif;
-	font-weight: 400;
-	font-size: 0.875em;
-	width:25em;
-	line-height: 1.4em;
-
-}
-
-
 hr {
 	border:none;
 	height:1px;
@@ -82,19 +65,9 @@ hr {
 	background-color: #ECECEC
 }
 
-#about {
-	text-align: center;
-}
+#about {width: 25em;margin: auto;}
 
-#about p {
-	margin: 0 auto;
-}
-#casestudies {
-	display: inline-block;
-}
-#services {
-	display: inline-block;
-}
+#about p {margin: 1em 0;}
 
 nav {
 	display: inline-block;
@@ -106,7 +79,6 @@ nav {
 
 }
 img {
-	width:25%;
 }
 
 .more { 
@@ -119,12 +91,23 @@ img {
 h4 a {
 	color: #B7B9BF;
 }
-.cta { 
+.cta {
 	padding:20px;
-    margin: 0 20px;
-    border:none;
-    color: white;
-    background-color: #1A31FF;
-    text-align: center;
+	margin: 20px 0 0;
+	border:none;
+	color: white;
+	background-color: #1A31FF;
+	text-align: center;
+	display: inline-block;
+}
+#about img {
+    width: 100%;
+}
 
+article img {
+    display: block;
+}
+
+header img {
+    width: 25%;
 }
