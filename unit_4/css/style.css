@@ -65,9 +65,12 @@ h4 {
 	margin-bottom: 20px;
 	text-decoration: none;
 	display: inline-block;
+<<<<<<< HEAD
 }
 h4 a {
 	color: #B7B9BF;
+=======
+>>>>>>> 73f37dac2b973c215624ab3b906ac62c3cd013e7
 }
 hr {
 	border:none;
@@ -95,7 +98,13 @@ img {
 	border-bottom: 1px solid #000;
 }
 
+<<<<<<< HEAD
 
+=======
+h4 a {
+	color: #B7B9BF;
+}
+>>>>>>> 73f37dac2b973c215624ab3b906ac62c3cd013e7
 .cta {
 	padding:20px;
 	margin: 20px 0 0;
@@ -108,9 +117,19 @@ img {
 #about img {
     width: 100%;
 }
+<<<<<<< HEAD
 
 article img {
     display: block;
+=======
+
+article img {
+    display: block;
+}
+
+header img {
+    width: 25%;
+>>>>>>> 73f37dac2b973c215624ab3b906ac62c3cd013e7
 }
 
 .contactbox {
