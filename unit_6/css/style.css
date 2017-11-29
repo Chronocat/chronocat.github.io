@@ -5,8 +5,8 @@
 	box-sizing: border-box;
 }
 body {
-	margin-left: 150px;
-	margin-right: 150px;
+	margin-left: 80px;
+	margin-right: 80px;
 	background:url('../images/stroke.svg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -21,7 +21,7 @@ h1, h2 {
 	font-weight: 900;
 }
 h1 {
-    font-size: 2.5em;
+    font-size: 2.8em;
     margin-top: 150px;
     margin-bottom: 150px;
     margin-left: 20px;
@@ -29,7 +29,7 @@ h1 {
 
 h2 {
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 10px;
 	margin-bottom: 0px;
 	text-transform: uppercase;
 	font-size: 1.3em;
@@ -53,6 +53,7 @@ h4 {
 }
 h4 a {
 	color: #B7B9BF;
+	text-align: left;
 }
 
 a {
@@ -67,6 +68,7 @@ a:hover {
 }
 header img {
     width: 10%;
+    margin: 0;
 }
 header {
 	margin-top:30px;
@@ -102,6 +104,11 @@ nav {
     color: #0000FF;
     font-weight: 900;
 }
+#Aika-design {
+	font-weight: 900;
+	color: #0023eb;
+	font-size: 1.5em;
+}
 hr {
 	border:none;
 	height:1px;
@@ -113,6 +120,10 @@ span {
 	color: #1A31FF;
 }
 #casestudies {
+	border-bottom: 1px solid #000;
+}
+#casestudies p {
+	padding: 0 20px 10px 0;
 }
 #morecasestudies {
 	margin: auto;
@@ -121,18 +132,35 @@ span {
 #contact {
 	background-color: #ECECEC
 }
+#contact p{
+	text-align: center;
+	padding-top: 20px
+}
 
 #about {
 	width: 25em;
 	margin: auto;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
-#about p {margin: 1em 0;}
+#about p {
+	margin: 1em 0;
+	text-align: center;
+}
+#about img {
+    width: 70%;
+    object-position: center;
+}
 
+.moreabout {
+	text-align: center;
+	border-bottom: 1px solid #000;
+}
+#services p {
+	padding: 0 20px 10px 0;
+
+}
 
 img {
 }
@@ -140,17 +168,12 @@ img {
 .column {
 	float: left;
 	width: 33%;
-	padding: 20px;
+	padding: 10px;
 	margin: 0;
 }
 .more { 
 	border-bottom: 1px solid #000;
-	padding-top: 20px
-}
-.case { 
-	border-bottom: 1px solid #000;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	padding-top: 30px
 }
 
 
@@ -165,13 +188,18 @@ img {
 	display: inline-block;
 	font-weight: 400;
 }
-#about img {
-    width: 100%;
+.case { 
+	border-bottom: 1px solid #000;
+	padding-top: 20px;
+	margin-bottom: 10px;
 }
+
 
 #services {
 	margin-left: 0px;
 	margin-right: 0px;
+	border-top: 1px solid #000;
+
 }
 article img {
     display: block;
