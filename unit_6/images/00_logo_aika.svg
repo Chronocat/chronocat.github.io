@@ -5,9 +5,7 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#0023EB;stroke-width:1.1049;}
 </style>
-<g>
-	<line class="st0" x1="8" y1="5.8" x2="8" y2="20.3"/>
-	<polyline class="st0" points="29,6.3 22.2,13.1 29,19.8 	"/>
-	<rect x="10.6" y="8.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.7979 14.596)" class="st0" width="9.1" height="9.1"/>
-</g>
+<line class="st0" x1="8" y1="5.8" x2="8" y2="20.3"/>
+<polyline class="st0" points="30.6,6.3 23.8,13.1 30.6,19.8 "/>
+<rect x="11.2" y="8.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.6487 14.9992)" class="st0" width="9.1" height="9.1"/>
 </svg>
