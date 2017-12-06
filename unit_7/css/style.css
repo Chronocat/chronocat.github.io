@@ -174,7 +174,7 @@ span {
 	border-radius: 2px;
 	clear: both;
 	display: block;
-	width:content-adjust;
+	width:30em;
 }
 .cta:hover {
 	color:#C7C7C7;
@@ -204,9 +204,14 @@ span {
 #services p {
 	clear:both;
 }
+
 article img {
     display: block;
     width: 100%
+}
+#contact {
+	font-weight: 900;
+	color: #0023eb;
 }
 footer p{
 	margin-top: 20px;
@@ -214,7 +219,7 @@ footer p{
 	display: inline-block;
 }
 footer a{
-		font-size:.9em;
+	font-size:.9em;
 }
 
 #top {
