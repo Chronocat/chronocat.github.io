@@ -5,8 +5,9 @@
 	box-sizing: border-box;
 }
 body {
-	margin-left: 80px;
-	margin-right: 80px;
+
+	width: 85%;
+	margin: auto;
 	background:url('../images/stroke.svg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -65,7 +66,7 @@ a {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	color: inherit;
-	padding-bottom:2px;
+	padding-bottom:.125em;
 }
 a:hover {
 	color: #0023eb;
@@ -85,30 +86,10 @@ nav {
 }
 
 .navlinks {
-	padding: 0 32px;
+	padding: 0 2em;
 	border-bottom: 0;
 } 
 
-/* unvisited link */
-.navlinks a:link {
-    color: #FF0000;
-}
-
-/* visited link */
-.navlinks a:visited {
-    color: #00FF00;
-}
-
-/* mouse over link */
-.navlinks a:hover {
-    font-weight: 900;
-}
-
-/* selected link */
-.navlinks a:active {
-    color: #0000FF;
-    font-weight: 900;
-}
 #Aika-design {
 	font-weight: 900;
 	color: #0023eb;
@@ -123,25 +104,23 @@ span {
 	border-bottom: 1px solid #000;
 }
 #casestudies p {
-	padding: 0 20px 10px 0;
+	padding: 0 1.25em .625em 0;
 	clear: both;
-}
-#morecasestudies {
 }
 
 #contact {
-	background-color: #ECECEC
+	background-color: #ECECEC;
 }
 #contact p {
 	text-align: center;
-	padding-top: 20px
+	padding-top: 1.25em;
 }
 
 #about {
 	width: 19em;
 	margin: auto;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 3.125em;
+	padding-bottom: 3.125em;
 	text-align: center;
 
 }
@@ -161,32 +140,28 @@ span {
 .moreabout:hover {
 		border-bottom: 1px solid;
 }
+
 #services p {
-	padding: 0 20px 10px 0;
-
-}
-
-img {
+	padding: 0 1.25em .625em 0;
 }
 
 .column {
 	float: left;
 	width: 33%;
-	padding: 10px;
+	padding: .625em;
 	margin: 0;
 }
 .more { 
 	border-bottom: 1px solid #000;
-	padding-top: 30px
+	padding-top: 1.875em;
 }
 .more:hover {
 	border-bottom: 1px solid;
 
 }
 
-
 .cta {
-	padding:20px;
+	padding:1.25em;
 	margin-top: 30px;
 	margin-bottom: 20px;
 	border: none;
@@ -196,6 +171,7 @@ img {
 	display: inline-block;
 	font-weight: 400;
 	border-radius: 2px;
+	clear: both;
 }
 .cta:hover {
 	color:#C7C7C7;
@@ -203,7 +179,7 @@ img {
 
 .case { 
 	border-bottom: 1px solid #000;
-	padding-top: 5px;
+	padding-top: .3125em;
 	margin-top: 0px;
 	margin-bottom:0px;
 	display: inline-block;
@@ -231,9 +207,11 @@ article img {
 }
 #footer {
 	margin-top: 20px;
-	font-size:0.9em;
+	font-size:.9em;
 	display: block;
 	text-align: right;
+	vertical-align: center;
+
 }
 
 #footer img {
@@ -243,22 +221,21 @@ article img {
 
 input[type=text] {
 	width: 90%;
-	padding: 12px 12px;
-	margin: 10px 0px;
+	padding: .75em .75em;
+	margin: .75em 0;
 	box-sizing: border-box;
 	font-size: 0.9em;
 	color:#7F7D7B;
 }
 textarea {
 	width: 90%;
-	padding: 12px 12px;
-	margin: 8px 0;
+	padding: .75em .75em;
+	margin: .5em 0;
 	box-sizing: border-box;
 	font-size: 0.9em;
 	color:#7F7D7B;
 }
 
-}
 .clearfix:after {
   visibility: hidden;
   display: block;
