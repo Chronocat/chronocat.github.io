@@ -258,6 +258,11 @@ textarea {
 	}
 	.navlinks {
 	padding: 0 1em;
-	display:inline-block;
+}
 
+}
+@media only screen and (max-width: 709px){
+	.navlinks {
+	padding: 0 1em 0 0;
+	display:inline-block;
 }
