@@ -165,6 +165,8 @@ span {
 
 .cta {
 	padding:1.25em;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 30px;
 	margin-bottom: 20px;
 	color: white;
@@ -174,9 +176,28 @@ span {
 	border-radius: 2px;
 	clear: both;
 	display: block;
-	width:30em;
+	width: max-content;
 }
 .cta:hover {
+	color:#C7C7C7;
+}
+.ctasubmit{
+	padding:1.25em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color: white;
+	font-size: 1em;
+	background-color: #0023eb;
+	text-align: center;
+	font-weight: 400;
+	border-radius: 2px;
+	clear: both;
+	display: block;
+	width: max-content;
+}
+.ctasubmit:hover {
 	color:#C7C7C7;
 }
 
@@ -212,9 +233,10 @@ article img {
 #contact {
 	font-weight: 900;
 	color: #0023eb;
+	text-align: center;
 }
 footer p{
-	margin-top: 20px;
+	margin: 20px 0;
 	font-size:.9em;
 	display: inline-block;
 }
@@ -222,15 +244,17 @@ footer a{
 	font-size:.9em;
 }
 
-#top {
-	width: .9em;
+.top {
+	width: 2em;
 	position: fixed;
+	bottom: 0em;
+	right: 1em;
 }
 
 input[type=text] {
 	width: 90%;
 	padding: .75em .75em;
-	margin: .75em 0;
+	margin: .5em auto;
 	box-sizing: border-box;
 	font-size: 0.9em;
 	color:#7F7D7B;
@@ -243,6 +267,9 @@ textarea {
 	font-size: 0.9em;
 	color:#7F7D7B;
 }
+#nav-toggle {
+	display:none;
+}
 
 .clearfix:after {
   visibility: hidden;
@@ -252,17 +279,32 @@ textarea {
   clear: both;
   height: 0;
 }
-@media only screen and (max-width: 1020px){
-	footer {
-		text-align: center;
-		margin: auto;
-	}
-	footer img {
-		display: block;
-		margin: auto;
-	}
+@media only screen and (max-width: 1250px){
+
 	.navlinks {
 	padding: 0 1em;
 	display:inline-block;
+}
+	#wrapper {
+	width: 1000px;
+}
+	h1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+	
+
+}
+@media only screen and (max-width: 750px){
+	nav {
+		display: none;
+	}
+	#nav-toggle {
+	display:block;
+
+}
+	nav:hover a {
+		display:block;
+	}
 
 }
