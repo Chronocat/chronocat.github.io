@@ -86,7 +86,7 @@ nav {
 	display: inline-block;
 	margin-left: 0px;
 }
-input {
+input[type=checkbox]{
 	display:none;
 }
 label {
@@ -150,9 +150,6 @@ span {
 		border-bottom: 1px solid;
 }
 
-#services p {
-	padding: 0 1.25em .625em 0;
-}
 
 .column {
 	float: left;
@@ -226,10 +223,13 @@ span {
 }
 #services img {
 	width: 2em;
-	margin: 0;
 }
-#services p {
-	clear:both;
+.columnservices {
+	background-color: lightgrey;
+	width:16.4%;
+	display: inline-block;
+	padding:2em;
+
 }
 
 article img {
@@ -285,6 +285,16 @@ textarea {
   clear: both;
   height: 0;
 }
+
+@media only screen and (max-width: 1468px){
+	.columnservices {
+	background-color: lightgrey;
+	width:33%;
+	display: inline-block;
+	padding:1em;
+
+}
+
 @media only screen and (max-width: 1250px){
 
 	.navlinks {
@@ -295,6 +305,12 @@ textarea {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.columnservices {
+	background-color: lightgrey;
+	display: inline-block;
+	padding:1em;
+
+}
 
 
 @media only screen and (max-width: 1000px){
@@ -303,22 +319,40 @@ textarea {
     margin-bottom: 90px;
     font-size:2.5em;
 }
-
 	.column{
-		width: 48%;
+		width: 100%;
 		clear:both;
 	}
-
-	#casestudies p{
-		display: inline-block;
+	.column img {
+		width: 48%;
+		float: left;
+		margin-right: 2em;
 	}
 	h3 {
 		display:inline-block;
+		margin: 0;
 	}
-	.column p {
-		display: inline-block;
+	h4 {
+		margin: 0;
+	}
+
+    #casestudies p { 
+    clear:none;	
+    margin: 2em 0 0em 1em;
+    padding: 0 0em 1em 1em;
+
 	}
 }
+@media only screen and (max-width: 944px){
+		.columnservices {
+	background-color: lightgrey;
+	width:48%;
+	display: inline-block;
+	padding:1em;
+
+}
+
+
 @media only screen and (max-width: 800px){
 	#Aika-design {
 	padding-left:0.4em;
@@ -335,6 +369,7 @@ textarea {
 	margin-top: 80px;
     margin-bottom: 80px;
 	}
+
 }	
 @media only screen and (max-width: 750px){
 	#wrapper {
@@ -362,6 +397,7 @@ textarea {
 	padding-bottom: 2em;
 }
 
+
 	#contact input[type=submit] {
 		margin-top: 0;
 	}
@@ -378,6 +414,13 @@ textarea {
 	#aika-design{
 		display: inline-block;
 	} 
+	.columnservices {
+	background-color: lightgrey;
+	width:100%;
+	display: inline-block;
+	padding:1em;
+
+	}
 
 	label {
 	display:block;

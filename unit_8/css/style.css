@@ -86,7 +86,7 @@ nav {
 	display: inline-block;
 	margin-left: 0px;
 }
-input {
+input[type=checkbox]{
 	display:none;
 }
 label {
@@ -150,9 +150,6 @@ span {
 		border-bottom: 1px solid;
 }
 
-#services p {
-	padding: 0 1.25em .625em 0;
-}
 
 .column {
 	float: left;
@@ -225,11 +222,17 @@ span {
 	border-top: 1px solid #000;
 }
 #services img {
-	width: 2em;
-	margin: 0;
+	width: 2.5em;
+	text-align: center;
 }
-#services p {
-	clear:both;
+.columnservices {
+	background-color: lightgrey;
+	width:16.4%;
+	display: inline-block;
+	padding:1em 0 1em 1em;
+}
+.columnservices h3 {
+	float: none;
 }
 
 article img {
@@ -240,6 +243,7 @@ article img {
 	font-weight: 900;
 	color: #0023eb;
 	text-align: center;
+	margin-top:3em;
 }
 footer p{
 	margin: 20px 0;
@@ -285,15 +289,33 @@ textarea {
   clear: both;
   height: 0;
 }
+
+@media only screen and (max-width: 1468px){
+	.columnservices {
+	background-color: lightgrey;
+	width:33%;
+	display: inline-block;
+	padding:1em;
+	margin-top: .3em;
+	}
+}
+
 @media only screen and (max-width: 1250px){
 
 	.navlinks {
 	padding: 0 1em;
 	display:inline-block;
-}
+	}
 	h1 {
     margin-top: 100px;
     margin-bottom: 100px;
+	}
+	.columnservices {
+	background-color: lightgrey;
+	display: inline-block;
+	padding:1em;
+
+	}
 }
 
 
@@ -303,22 +325,85 @@ textarea {
     margin-bottom: 90px;
     font-size:2.5em;
 }
-
 	.column{
-		width: 48%;
+		width: 100%;
 		clear:both;
 	}
-
-	#casestudies p{
-		display: inline-block;
+	.column img {
+		width: 48%;
+		float: left;
+		margin-right: 2em;
 	}
 	h3 {
 		display:inline-block;
+		margin: 0;
 	}
-	.column p {
-		display: inline-block;
+	h4 {
+		margin: 0;
+	}
+
+    #casestudies p { 
+    clear:none;	
+    margin: 2em 0 0em 1em;
+    padding: 0 0em 1em 1em;
+	}
+	.columnservices h3{
+	padding-top: 1em;
+	}
+
+}
+@media only screen and (max-width: 944px){
+	.column{
+		width: 100%;
+		clear:both;
+	}
+	.column img {
+		width: 100%;
+		float: left;
+		margin: 0em;
+	}
+	h3 {
+		display:block;
+		margin: .2em 0 0 0;
+	}
+	h4 {
+		margin: .2em 0 0 0;
+	}
+
+    #casestudies p { 
+	display:block;  
+	float:left;  
+	margin: .5em 0 0em 0em;
+    padding: 0em;
+	}
+	.columnservices{
+	width:49.7%;
+	}
+
+	.more { 
+	display:block;
+	float:left;
+	padding-top: 1em;
+	margin: 0em 0 0 0;
+	}
+
+}
+
+@media only screen and (max-width: 938px){
+	#casestudies { 
+	width:100%;
+    clear:none;	
+    margin: 2em 0 0em 0em;
+    padding: 0 0em 1em 0em;
+	}
+	h3{
+	padding-top:1em;
+	}
+	h4{
+	padding-top:1em;
 	}
 }
+
 @media only screen and (max-width: 800px){
 	#Aika-design {
 	padding-left:0.4em;
@@ -328,26 +413,27 @@ textarea {
 	padding: 1em 1em;
 	border-bottom: 0;
 	margin: 0;
-} 
+	} 
 
 	h1{
 	font-size: 2em;
 	margin-top: 80px;
     margin-bottom: 80px;
 	}
+
 }	
 @media only screen and (max-width: 750px){
 	#wrapper {
 	width: 95%;
 	margin: auto;
-}
+	}
 	nav {
 		display: block;
 	}
 	
 	header {
 	margin-top:20px;
-}
+	}
 	h1 {
 	margin-top: 60px;
     margin-bottom: 60px;
@@ -357,10 +443,16 @@ textarea {
 	.column{
 		width: 100%;
 	}
+	.more { 
+	display:block;
+	float:left;
+	padding-top: 1em;
+	margin-top: 0em;
+	}
 	#about {
 	padding-top: 1em;
 	padding-bottom: 2em;
-}
+	}
 
 	#contact input[type=submit] {
 		margin-top: 0;
@@ -370,25 +462,57 @@ textarea {
 	}
 
 }
-@media only screen and (max-width: 580px){
+@media only screen and (max-width: 787px){
+	.columnservices{
+	width:49.6%;
+	}
+@media only screen and (max-width: 594px){
 	.navlinks {
 		display: block;
-
 	}
+}
+@media only screen and (max-width: 580px){
+
 	#aika-design{
 		display: inline-block;
 	} 
-
+	.columnservices {
+	background-color: lightgrey;
+	width:100%;
+	display: inline-block;
+	padding:.3em 0 .5em 1em;
+	}
+	.columnservices h3{
+	padding-top: .3em;
+	}
+	.more { 
+	display:block;
+	float:left;
+	padding-top: 1em;
+	margin-top: 0em;
+	}
+	#services img {
+	width: 2em;
+	}
+	footer p{
+	margin: .3em 0;
+	font-size:.9em;
+	display: block;
+	}
+	footer a{
+	margin: .5em 0 0 0;
+	display: block;
+	}
+	nav {
+		display:none;
+	}
 	label {
 	display:block;
 	margin-left: 1em;
 	padding: 1em 0em;
 	}
-	
 	#toggle:checked + nav{
-		display: block;
+	display: block;
 	}
-
-
 
 }
